@@ -1,6 +1,7 @@
 # iplocate
 
-This is a simple middleware for an express App that gets the locations of every request thats hits the server.
+This is a simple middleware for an express App that gets the locations of every request thats hits the server. I am using [freegeoip.net](http://freegeoip.net/) .
+Its free service it lets you hit 10000 requests per hour for ip's location. 
 
 ##Installation
 
