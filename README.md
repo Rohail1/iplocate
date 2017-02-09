@@ -14,7 +14,7 @@ This is a simple middleware for an express App that gets the locations of every 
     
     app.use(iplocate);
     
-    router.route('api/route',function(req,res){
+    router.get('api/route',function(req,res){
       if(req.locationError){
         // In case of Any error locationError will be populated
         console.log('req.locationError ',req.locationError)
