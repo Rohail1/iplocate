@@ -13,7 +13,8 @@ This is a simple middleware for an express App that gets the locations of every 
     let iplocate = require('iplocate');
     
     app.use(iplocate);
-    
+
+        
     router.get('api/route',function(req,res){
       if(req.locationError){
         // In case of Any error locationError will be populated
@@ -22,7 +23,19 @@ This is a simple middleware for an express App that gets the locations of every 
         // The location object will be attached to request
         console.log('req.location',req.location)
       }
-    })
+    });
+    
+    // Or use it with APP
+    
+    app.get('api/route',function(req,res){
+      if(req.locationError){
+        // In case of Any error locationError will be populated
+        console.log('req.locationError ',req.locationError)
+      }else {
+        // The location object will be attached to request
+        console.log('req.location',req.location)
+      }
+    })    
 
 ```
 ###Tests
