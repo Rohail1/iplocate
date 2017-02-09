@@ -20,7 +20,7 @@ const iplocateServiceUrl = "http://freegeoip.net/json/";
 function ipToLocation(ip) {
 
   return new Promise(function (resolve, reject) {
-    if (!ipRegex().test(ip)) {
+    if (!ipRegex({exact: true}).test(ip)) {
       let error = {message : "Invalid Ip Address"};
       reject(error)
     }else {
@@ -45,7 +45,7 @@ function ipToLocation(ip) {
 
 function middlewareFunction (req,res,next){
 
-  ipToLocation(req.ip)
+  return ipToLocation(req.ip)
     .then(function (location) {
       req.location = location;
       next();

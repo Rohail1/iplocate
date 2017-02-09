@@ -4,7 +4,7 @@
   "description": "An express middleware for getting the location of Ips on every request.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
   }
 }
