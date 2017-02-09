@@ -1,0 +1,40 @@
+{
+  "name": "iplocate",
+  "version": "1.0.0",
+  "description": "An express middleware for getting the location of Ips on every request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohail1/iplocate.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "node.js",
+    "ip",
+    "location",
+    "geolocate",
+    "javascript",
+    "es6"
+  ],
+  "engines": {
+    "node": ">=6.8.4"
+  },
+  "author": "Rohail Najam <rohail@lumous.pk> (http://lumous.pk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rohail1/iplocate/issues"
+  },
+  "homepage": "https://github.com/Rohail1/iplocate#readme",
+  "dependencies": {
+    "ip-regex": "^2.0.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
