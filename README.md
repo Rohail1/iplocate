@@ -12,6 +12,7 @@ This is a simple middleware for an express App that gets the locations of every 
     
     app.use(iplocate);
 
+
 ###Tests
 
   `npm test`
