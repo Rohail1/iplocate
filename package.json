@@ -1,6 +1,6 @@
 {
   "name": "iplocate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An express middleware for getting the location of Ips on every request.",
   "main": "index.js",
   "scripts": {
