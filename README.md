@@ -1,6 +1,6 @@
 # iplocate
 [![CircleCI](https://circleci.com/gh/Rohail1/iplocate/tree/master.svg?style=svg)](https://circleci.com/gh/Rohail1/iplocate/tree/master)
-<br/>This is a simple middleware for an express App that gets the locations of every request thats hits the server. I am using [freegeoip.net](http://freegeoip.net/) .
+[![npm version](https://badge.fury.io/js/iplocate.svg)](https://www.npmjs.com/package/iplocate)<br/>This is a simple middleware for an express App that gets the locations of every request thats hits the server. I am using [freegeoip.net](http://freegeoip.net/) .
 Its free service it lets you hit 10000 requests per hour for ip's location. 
 
 ##Installation
